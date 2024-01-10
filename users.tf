@@ -98,3 +98,13 @@ resource "pagerduty_user" "grey_worm" {
   email = "grey_worm@example.com"
   role  = "restricted_access"
 }
+resource "pagerduty_user" "user4" {
+  name  = "User 4"
+  email = "user.4@example.org"
+  role  = "limited_user"
+  }
+resource "pagerduty_user" "user5" {
+  name  = "User 5"
+  email = "user.5@example.org"
+  role  = "limited_user"
+  }
