@@ -4,7 +4,7 @@
 */
 
 resource "pagerduty_team" "support" {
-  name        = "Daytime Support"
+  name        = "Support"
   description = "Daytime Support Team"
 }
 
