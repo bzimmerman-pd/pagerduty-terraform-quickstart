@@ -27,3 +27,8 @@ resource "pagerduty_team" "external" {
   name        = "External Stakeholders"
   description = "External Stakeholders"
 }
+
+resource "pagerduty_team" "daytime_support" {
+  name        = "Daytime Support"
+  description = "Daytime Support Team"
+}
