@@ -22,3 +22,8 @@ resource "pagerduty_team" "executive" {
   name        = "Executive Stakeholders"
   description = "Executive Stakeholders"
 }
+
+resource "pagerduty_team" "external" {
+  name        = "External Stakeholders"
+  description = "External Stakeholders"
+}
