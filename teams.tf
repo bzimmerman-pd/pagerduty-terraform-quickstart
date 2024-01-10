@@ -3,8 +3,8 @@
   Ref: https://www.terraform.io/docs/providers/pagerduty/r/team.html
 */
 
-resource "pagerduty_team" "support" {
-  name        = "Support"
+resource "pagerduty_team" "daytime_support" {
+  name        = "Daytime Support"
   description = "Daytime Support Team"
 }
 
@@ -22,3 +22,4 @@ resource "pagerduty_team" "executive" {
   name        = "Executive Stakeholders"
   description = "Executive Stakeholders"
 }
+
