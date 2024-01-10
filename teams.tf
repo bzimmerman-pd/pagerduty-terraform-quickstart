@@ -31,8 +31,4 @@ resource "pagerduty_team" "external" {
 resource "pagerduty_team" "daytime_support" {
   name        = "Daytime Support"
   description = "Daytime Support Team"
-<<<<<< HEAD
-
-
 }
->>>>>>> 2a4412760bc1dd5434bbaec330663af05980a70d
