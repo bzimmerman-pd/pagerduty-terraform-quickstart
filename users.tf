@@ -103,14 +103,3 @@ resource "pagerduty_user" "user4" {
   email = "user.4@example.org"
   role  = "limited_user"
   }
-resource "pagerduty_user" "user5" {
-  name  = "User 5"
-  email = "user.5@example.org"
-  role  = "limited_user"
-  }
-
-  resource "pagerduty_user" "user2" {
-  name  = "User 2"
-  email = "user.2@example.org"
-  role  = "limited_user"
-  }
